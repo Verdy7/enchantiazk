@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@100;200;300;400;500;600;700;800&family=Roboto&display=swap');
+
+body {
+    background-image: url('./IMAGE/interior-clothing-store-generati-transformed.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.clickable-container {
+    position: relative;
+    display: inline-block;
+}
+.clickable-container1 {
+    position: relative;
+    display: inline-block;
+}
+.clickable-container2 {
+    position: relative;
+    display: inline-block;
+}
+.clickable-container3 {
+    position: relative;
+    display: inline-block;
+}
+.clickable-circle {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.clickable-circle1 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.clickable-circle2 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.clickable-circle3 {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.clickable-oval {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    transition-delay: 1ms; /* Add a 2-second delay before hiding */
+}
+.clickable-oval1 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    transition-delay: 1ms; /* Add a 2-second delay before hiding */
+}
+.clickable-oval2 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    transition-delay: 1ms; /* Add a 2-second delay before hiding */
+}
+.clickable-oval3 {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    transition-delay: 1ms; /* Add a 2-second delay before hiding */
+}
+.first-product {
+    margin-top: 35%;
+    left: 7%; /* Adjust left position as needed */
+    z-index: 12;
+}
+.second-product {
+  
+    margin-left: 44%; /* Adjust left position as needed */
+    z-index: 1234;
+}
+.third-product{
+    z-index: 11111;
+    
+    margin-left: 80%;
+}
+.forth-product{
+   margin-left:  -45%;
+   margin-bottom: -1%;
+}
+.clickable-link {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.clickable-container:hover .clickable-circle {
+    opacity: 0;
+}
+
+.clickable-container:hover .clickable-oval {
+    opacity: 1;
+    pointer-events: auto; /* Allow clicks on the oval when it's visible */
+}
+.clickable-container1:hover .clickable-circle1 {
+    opacity: 0;
+}
+
+.clickable-container1:hover .clickable-oval1 {
+    opacity: 1;
+    pointer-events: auto; /* Allow clicks on the oval when it's visible */
+}
+.clickable-container2:hover .clickable-circle2 {
+    opacity: 0;
+}
+
+.clickable-container2:hover .clickable-oval2 {
+    opacity: 1;
+    pointer-events: auto; /* Allow clicks on the oval when it's visible */
+}
+.clickable-container3:hover .clickable-circle3 {
+    opacity: 0;
+}
+
+.clickable-container3:hover .clickable-oval3 {
+    opacity: 1;
+    pointer-events: auto; /* Allow clicks on the oval when it's visible */
+}
+::selection{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.signature{
+    width: 100px;
+    grid-column-start: 2;
+    z-index: 111111;
+    height: 50px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    justify-items: center ;
+    z-index: 11111;
+    margin-top: -37.5%;
+    margin-right: 2.5%;
+}
+
+nav ul {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.nav-links a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: whitesmoke;
+    font-weight: 200;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.nav-links a i {
+    transform: translateY(2px);
+    margin-left: 0.2rem;
+    font-size: 1.1rem;
+}
+
+.nav-links a:hover {
+    color:#f3c892;
+}
+
+.custom-message{
+    position: relative;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    position: fixed;
+    top: 10px;
+    left: 35%;
+    z-index: 111111;
+    border-radius: 5px;
+    width: 500px; 
+}
+@media only screen and (max-width:400px) {
+    .body{
+        overflow-x: visible ;
+        background-size: 1920px;
+    }
+    
+
+
+
+}
